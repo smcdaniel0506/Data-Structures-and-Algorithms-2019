@@ -1,0 +1,24 @@
+/*
+   Assign the size of vector sensorReadings to currentSize. 
+*/
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+   vector<int> sensorReadings(4);
+   int currentSize = 0;
+
+   sensorReadings.resize(10);
+
+   /* Your solution goes here  */
+   
+   currentSize = sensorReadings.size();
+   
+   /* End of solution */
+
+   cout << "Number of elements: " << currentSize << endl;
+
+   return 0;
+}
