@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Lab2-1.cpp
+// Name        : Lab2-1 December Bids.cpp
 // Author      : Steven McDaniel
 // Version     : 1.0
 // Copyright   : Copyright © 2017 SNHU COCE
