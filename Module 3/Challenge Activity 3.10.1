@@ -1,0 +1,23 @@
+/*
+   Assign numItems' address to numItemsPtr, 
+   then print the shown text followed by the value 
+   to which numItemsPtr points. End with newline.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   int* numItemsPtr = 0;
+   int numItems = 99;
+
+   /* Your solution goes here  */
+   
+   numItemsPtr = &numItems;
+   
+   cout << "Items: " << *numItemsPtr << endl;
+   
+   /* End of solution */
+
+   return 0;
+}
